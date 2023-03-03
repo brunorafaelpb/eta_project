@@ -46,7 +46,7 @@ class IceCreamStand(Restaurant):
         """Add o sabor informado ao estoque."""
 
         """
-        - BUG: Não existe validação para saber se o flavor é um nome válido. Para resolver o defeito, foi criado o método
+        - MELHORIA: Não existe validação para saber se o flavor é um nome válido. Para resolver o defeito, foi criado o método
                validate_flavor e adicionado um IF para realizar essa validação.
         - MELHORIA: As mensagens estão sendo "printadas" diretamente no método. Agora as mensagens passam a ser
                     retornadas pelo método.

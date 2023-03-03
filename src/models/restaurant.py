@@ -15,7 +15,7 @@ class Restaurant:
         """Imprima uma descrição simples da instância do restaurante."""
 
         """
-        * BUG: O método está exibindo o tipo da comida em dois pontos. Para resolver o defeito, o primeiro 
+        - BUG: O método está exibindo o tipo da comida em dois pontos. Para resolver o defeito, o primeiro 
                {self.cuisine_type} foi substituido por {self.restaurant_name}
         - BUG: A mensagem de retorno está errada. Pra resolver o defeito, a palavra "and" foi substituida por "e" e 
                a palavra "restaturante" por "restaurante"
@@ -30,7 +30,7 @@ class Restaurant:
         """Imprima uma mensagem indicando que o restaurante está aberto para negócios."""
 
         """
-        - BUG: O restanrante está sendo instanciado como fechado, para resolver o defeito o self.open fica como True
+        - BUG: O restaurante está sendo instanciado como fechado, para resolver o defeito o self.open fica como True
         - BUG: A quantidade de consumidores servidos está iniciando negativa, para resolver o defeito o number.served 
                fica como 0
         - MELHORIA: As mensagens estão sendo "printadas" diretamente no método. Agora as mensagens passam a ser
